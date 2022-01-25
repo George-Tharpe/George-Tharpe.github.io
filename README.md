@@ -3,7 +3,7 @@
 ## My Projects 
 
 ### OmegaApp
-[![OmegaApp]({image-url})]({video-url} "OmegaApp")
+[![OmegaApp](https://i.imgur.com/ceJpDF6.png)](https://i.imgur.com/ZWotZZQ.mp4 "OmegaApp")
 Description
 ```
 The OmegaApp incorporates the lyrics.ovh and the Dandelion Sentiment
