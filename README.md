@@ -6,14 +6,41 @@
 [![OmegaApp]({image-url})]({video-url} "OmegaApp")
 Description
 ```
-copy description here
+The OmegaApp incorporates the lyrics.ovh and the Dandelion Sentiment
+Analysis API's. The lyrics api takes in an atrist name and song title
+to return the song lyrics. OmegaApp then sends the lyrics to the
+Dandelion api, which takes in strings and returns a number from -1 to
+1. Numbers that range from -1 to 0 represent a negative sentiment and
+numbers 0 to 1 represent positive sentiment. OmegaApp uses this number
+to determine a color based on RGB values. It works such that songs with
+more negative sentiment are blue-ish and songs with more positve
+sentiment are yellow-ish. It should be noted that the sentiment analysis
+is not the best at finding the sentiment of song lyrics. This could
+be due to the length of the string being too large for accurate analysis.
+Alternativly, the AI might just struggle with the convoluted nature of
+song lyrics. Whatever the reason, OmegaApp adjusts for this by shifting
+the sentiment score. If the score is from -1.0 to -0.35 we call the
+sentiment negative and blue shift the color. If the socre is from
+-0.349 to 1 we call the sentiment positve and yellow shift the color.
+Note that nutral scores (scores near 0) will be green-ish. This
+adjustment helps compensate for the fact that the score of many happy
+songs is a negative value. OmegaApp is a frame work, which could easily
+incorporate better sentiment analysis in future versions. OmegaApp uses
+the Dandelion api because it is free and easy to use. Of course, the
+software is always going to be a work in progress. Please feel free to let
+us know ways we can improve by emailing the developer George Tharpe.
 ```
 
 ### GalleryApp
-[![GalleryApp]({image-url})]({video-url} "GalleryApp")
+[![GalleryApp](https://i.imgur.com/0ONL9jm.png)](https://i.imgur.com/1h61Ppk.mp4 "GalleryApp")
 Description
 ```
-copy description here
+The Gallery app uses the Itunes API to download images based on the users search. 
+It then displays the first 20 results and cycles through the other results randomly.
+The Gallery app includes a pause play feature and a progress bar, which both run on
+seprate threads. Additionally it has threads for pop up error messages, which are 
+designed to be user friendly. Overall, the Gallery app was an interesting project 
+that got my feet wet in the world of GUI's and API's.
 ```
 
 ## About Me
