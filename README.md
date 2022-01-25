@@ -3,7 +3,11 @@
 ## My Projects 
 
 ### OmegaApp
-[![OmegaApp](https://i.imgur.com/ceJpDF6.png)](https://i.imgur.com/ZWotZZQ.mp4 "OmegaApp")
+
+<a href="https://i.imgur.com/ZWotZZQ.mp4" title="OmegaApp"><img src="https://i.imgur.com/ceJpDF6.png" width="500" height="500" alt="OmegaApp" /></a>
+
+Click the image to see a video
+
 Description
 ```
 The OmegaApp incorporates the lyrics.ovh and the Dandelion Sentiment
@@ -32,7 +36,11 @@ us know ways we can improve by emailing the developer George Tharpe.
 ```
 
 ### GalleryApp
-[![GalleryApp](https://i.imgur.com/0ONL9jm.png)](https://i.imgur.com/1h61Ppk.mp4 "GalleryApp")
+
+<a href="https://i.imgur.com/1h61Ppk.mp4" title="GalleryApp"><img src="https://i.imgur.com/0ONL9jm.png" width="500" height="500" alt="GalleryApp" /></a>
+
+Click the image to see a video
+
 Description
 ```
 The Gallery app uses the Itunes API to download images based on the users search. 
