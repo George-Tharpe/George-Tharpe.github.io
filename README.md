@@ -41,6 +41,9 @@ curious, I can do kick flips, jump down stairs, and ride on rails. I am not exag
 skateboarding changed my life. I have met dozens of friends, improved my health, and learned new ways of 
 thinking. More specifically, skateboarding taught me confidence, creativity, and the perseverance to keep
 trying even when you fail. In a way learning a new trick is similar to working on code. They’re both about 
-trial and error.
+trial and error. The first time you try you’re not even close, but you keep trying and slowly make progress. 
+Once you finally land the trick or get the code working, you’re far from finished. You have to keep working 
+on it until it’s perfect. Thats just one example of how skating makes good developers.
+
 
 ```
