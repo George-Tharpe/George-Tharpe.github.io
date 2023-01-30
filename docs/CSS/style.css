@@ -1,0 +1,275 @@
+:root{
+    --green:rgb(0, 222, 0);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(31, 31, 31);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--green);
+    margin: 10 10 10 10;
+}
+
+.top{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(31, 31, 31, 0.3),rgba(31, 31, 31, 0.3));
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    width: 95%;
+    background-color: var(--green);
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 5px 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 100px;
+    color: black;
+}
+.navText:link{
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    padding: 2px;
+    border-radius: 5px;
+}
+.navText:visited{
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    padding: 2px;
+    border-radius: 5px;
+}
+.navText:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.content h1{
+    font-size: 75px;
+    font-weight: 600;
+}
+.content h2{
+    font-size: 25px;
+
+}
+
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
+
+#drip{
+    position: absolute;
+    margin: 0 0 0 0;
+    top: 98.6vh;
+    left: 0;
+    background: linear-gradient(rgba(31, 31, 31, 0.3));
+    z-index: -2;
+}
+
+.center{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+h1{
+    font-family: "Press Start 2P";
+}
+
+h3{
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
+
+hr{
+    border: 10px solid green;
+    border-radius: 5px;
+}
+
+a:link {
+    color: rgb(255, 119, 1);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(255, 84, 212);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 79, 79);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+#headShot{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border: 5px solid black;
+}
+
+.clear{
+    clear: both;
+}
+
+.langImg{
+    float: left;
+    margin: 0 1% 0 35%
+}
+.languages {
+    border-radius: 25px;
+    background-color: var(--green);
+    border: 1px solid;
+    padding: 10px;
+    padding-right: 60px;
+    padding-left: 40px;
+    color: black;
+    float: left;
+    margin: 10px 0 0 0;
+}
+
+dt{
+    font-weight:bold;
+}
+
+
+.leadership{
+    float: left;
+    border-radius: 25px;
+    background-color: var(--green);
+    border: 1px solid;
+    padding: 10px;
+    color: black;
+    margin: 0 1% 10px 35%;
+}
+.leadImg{
+    float: left;
+    margin: 10px 0 0 0;
+}
+
+.skillsImg{
+    float: left;
+    margin: 10px 1% 0 35%;
+}
+.skillsRated{
+    float: left;
+    border-radius: 25px;
+    background-color: var(--green);
+    border: 1px solid;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 60px;
+    color: black;
+    margin: 20px 0 0 0;
+}
+
+.apps{
+    display: block;
+    width: 50%;
+    margin: 0 0 0 25%;
+}
+
+#contact{
+    font-size: 50px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: var(--green);
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: inset 0 0 0 0 rgb(255, 84, 212);
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+#contact:hover{
+    color: white;
+    box-shadow: inset 280px 0 0 0 rgb(255, 84, 212);
+}
+
+.bottom{
+    background-color: black;
+    width: auto;
+    margin: 0;
+    padding: 10px;
+    border: 2px solid var(--green);
+}
+
+.card{
+    border: 1px solid var(--green);
+    box-shadow: 0 4px 8px 0 var(--green);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+    background-color: black;
+    padding: 25px;
+    margin: 15px auto;
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 var(--green);
+}
+
+input, textarea{
+    color: var(--green);
+    border: 1px solid var(--green);
+    background-color: rgb(31, 31, 31);
+    padding: 15px;
+    width: 90%;
+    margin: 12px auto;
+    display: block;
+}
+
+input:focus, textarea:focus{
+    outline: none !important;
+    border-color: rgb(255, 84, 212);
+    box-shadow: 0 0 10px rgb(255, 84, 212);
+}
+
+textarea{
+    min-height: 40px;
+}
