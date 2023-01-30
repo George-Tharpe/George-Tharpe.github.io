@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>George Tharpe</title>
+    <meta name="description" content="HTML Project 1">
+</head>
+
+<body>
+   <div class="top" id="home">
+    <nav>
+        <img src="images/terminal.png" atl="terminal icon" class="navImg" width="50px">
+        <ul>
+            <li><a class="navText" href="#home">Home</a></li>
+            <li><a class="navText" href="#about">About</a></li>
+            <li><a class="navText" href="#projects">Projects</a></li>
+            <li><a class="navText" href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <video autoplay loop muted plays-inline class="back-video">
+        <source src="images/binaryBackground.mp4" type="video/mp4">
+    </video>
+    <div class="content">
+        <h1 class="center">George Tharpe</h1>
+        <h2 class="center">Computer Systems Engineer at UGA</h2>
+    </div>
+    <div id="drip"><img src="images/drip.png" alt="drips" width="100%"></div>
+   </div>
+   <br>
+   <br>
+   <br>
+   <br id="about">
+   <br>
+   <br>
+   <br>
+   <p><img src="images/headShot.jpeg" atl="Head shot of George Tharpe" width="200px" id="headShot"></p>
+   <h2 class="center">Hello,</h2>
+   <p class="center">I am a third year engineering student who has an interest in web programming. I like listening to music and skateboarding in my free time.</p>
+   <hr>
+   <h2 class="center">My Skills</h2>
+   <div class="langImg">
+    <p><img src="images/img1.png" atl="Head shot of George Tharpe" width="200px"></p>
+   </div>
+   <div class ="languages">
+    <h3>Languages</h3>
+    <ul>
+        <li>Java</li>
+        <li>C++</li>
+        <li>HTML</li>
+        <li>Python</li>
+    </ul>
+   </div>
+   <div class="leadership clear">
+    <h3>Leadership and Experience</h3>
+    <dl>
+        <dt>July 2022 to Present</dt>
+        <dd><a href="https://www.homedepot.com/?mtc=SEM-BF-CDP-GGL-Multi-Multi-NA-Multi-NA-ETA-NA-NA-NA-NA-BT1-NA-NA-NA-THD&cm_mmc=SEM-BF-CDP-GGL-Multi-Multi-NA-Multi-NA-ETA-NA-NA-NA-NA-BT1-NA-NA-NA-THD-71700000002449093-58700000047538642-43700003817116349&ds_rl=5041&gclid=Cj0KCQiAq5meBhCyARIsAJrtdr5JzLOw6CieOi2C25Y3fkVPSqPwZXWbkDwQA4JFkqHt7R7GyuOyPwMaAtUfEALw_wcB&gclsrc=aw.ds" target="_blank">Home Depot</a>: Delivery Associate</dd>
+        <dt>August 2017 to May 2020</dt>
+        <dd>Tutor: Math/ Science</dd>
+        <dt>June 2017 to December 2019</dt>
+        <dd>Burger 21: Server</dd>
+    </dl>
+   </div>
+   <div class="leadImg">
+    <p><img src="images/img2.png" atl="Head shot of George Tharpe" width="150px"></p>
+   </div>
+   <div class="skillsImg">
+    <p><img src="images/img3.png" atl="Head shot of George Tharpe" width="200px"></p>
+   </div>
+   <div class="skillsRated">
+    <h3>Skills</h3>
+    <dl>
+        <dt>Coding</dt>
+        <dd>⭐⭐⭐⭐</dd>
+        <dt>Hardware</dt>
+        <dd>⭐⭐⭐</dd>
+        <dt>Public Speaking</dt>
+        <dd>⭐⭐⭐</dd>
+    </dl>
+   </div>
+   <hr class="clear">
+   <br class="clear" id="projects">
+   <br class="clear">
+   <br class="clear">
+   <br class="clear">
+   <div class="clear">
+    <h2 class="center clear">My Projects</h2>
+    <h3 class="clear">OmegaApp</h3>
+    <video autoplay loop muted plays-inline class="apps">
+        <source src="images/omega.mp4" type="video/mp4">
+    </video>
+    <h3 class="clear">Description</h3>
+    <p class="clear">The OmegaApp incorporates the lyrics.ovh and the Dandelion Sentiment
+        Analysis API's. The lyrics api takes in an atrist name and song title
+        to return the song lyrics. OmegaApp then sends the lyrics to the
+        Dandelion api, which takes in strings and returns a number from -1 to
+        1. Numbers that range from -1 to 0 represent a negative sentiment and
+        numbers 0 to 1 represent positive sentiment. OmegaApp uses this number
+        to determine a color based on RGB values. It works such that songs with
+        more negative sentiment are blue-ish and songs with more positve
+        sentiment are yellow-ish. It should be noted that the sentiment analysis
+        is not the best at finding the sentiment of song lyrics. This could
+        be due to the length of the string being too large for accurate analysis.
+        Alternativly, the AI might just struggle with the convoluted nature of
+        song lyrics. Whatever the reason, OmegaApp adjusts for this by shifting
+        the sentiment score. If the score is from -1.0 to -0.35 we call the
+        sentiment negative and blue shift the color. If the socre is from
+        -0.349 to 1 we call the sentiment positve and yellow shift the color.
+        Note that nutral scores (scores near 0) will be green-ish. This
+        adjustment helps compensate for the fact that the score of many happy
+        songs is a negative value. OmegaApp is a frame work, which could easily
+        incorporate better sentiment analysis in future versions. OmegaApp uses
+        the Dandelion api because it is free and easy to use. Of course, the
+        software is always going to be a work in progress. Please feel free to let
+        us know ways we can improve by emailing the developer George Tharpe.</p>
+    <br>
+    <br>
+    <h3 class="clear">GalleryApp</h3>
+    <video autoplay loop muted plays-inline class="apps">
+        <source src="images/gallery.mp4" type="video/mp4">
+    </video>
+    <h3 class="clear">Description</h3>
+    <p class="clear">The Gallery app uses the Itunes API to download images based on the users search. 
+        It then displays the first 20 results and cycles through the other results randomly.
+        The Gallery app includes a pause play feature and a progress bar, which both run on
+        seprate threads. Additionally it has threads for pop up error messages, which are 
+        designed to be user friendly. Overall, the Gallery app was an interesting project 
+        that got my feet wet in the world of GUI's and API's.</p>
+   </div>
+   <hr class="clear">
+   <br class="clear">
+   <br class="clear">
+   <br class="clear">
+   <br class="clear">
+   <br class="clear">
+   <h3 class="clear center"><a id= "contact" href="contact.html" target="_blank">Get in Touch</a></h3>
+   <br class="clear">
+   <br class="clear">
+   <br class="clear">
+   <br class="clear">
+   <br class="clear">
+   <div class="bottom clear center">©️ George Tharpe</div>
+</body>
+</html>
