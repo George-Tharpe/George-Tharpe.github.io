@@ -8,7 +8,7 @@ html{
 
 body {
     background-color: rgb(31, 31, 31);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Electrolize", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: var(--green);
     margin: 10 10 10 10;
 }
@@ -148,6 +148,7 @@ a:active {
     margin-right: auto;
     width: 20%;
     border: 5px solid black;
+    border-radius: 5px;
 }
 
 .clear{
@@ -228,7 +229,7 @@ dt{
 
 #contact:hover{
     color: white;
-    box-shadow: inset 280px 0 0 0 rgb(255, 84, 212);
+    box-shadow: inset 350px 0 0 0 rgb(255, 84, 212);
 }
 
 .bottom{
